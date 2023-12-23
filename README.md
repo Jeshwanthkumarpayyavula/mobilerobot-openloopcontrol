@@ -10,9 +10,19 @@ To develop a python control code to move the mobilerobot along the predefined pa
 2. Python 3.7
 
 ## Procedure
+Step1: Start Program
 
+Step2: Use from output import robot.
 
-<br/>
+Step3: Choose the x,y,z - axis movement distance(meters).
+
+Step4: Give ep_chassis.move to move straight.
+
+Step5: Give time.sleep() for a break.
+
+Step6: Give ep_chassis.drive_speed to have a circular movement.
+
+Step7: End Program
 
 ## Program
 ```python
@@ -79,8 +89,6 @@ if name == 'main':
 ```
 
 ## MobileRobot Movement Image:
-
-![robo](./img/robomaster.png)
 
 Insert image here
 ![WhatsApp Image 2023-12-18 at 23 08 03_58c49619](https://github.com/Jeshwanthkumarpayyavula/mobilerobot-openloopcontrol/assets/145742402/72a1bd18-8a86-43ec-b250-760057407ad1)
